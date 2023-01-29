@@ -1,0 +1,5 @@
+.places {
+  width: calc(100% - 296px);
+  border: 1px solid red;
+  margin: 92px auto 0;
+}

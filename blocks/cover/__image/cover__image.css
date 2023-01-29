@@ -1,0 +1,10 @@
+.cover__image {
+  border: 1px solid yellow;
+  object-fit: cover;
+  width: 100%;
+  margin: 0;
+}
+
+.cover__image:hover {
+  opacity: 40%;
+}

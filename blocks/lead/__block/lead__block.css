@@ -1,0 +1,6 @@
+.lead__block {
+  width: calc(100%-296px);
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}

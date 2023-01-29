@@ -1,0 +1,5 @@
+.photo {
+  width: calc(100% - 96px);
+  border: 1px solid red;
+  margin: 92px auto 0;
+}
