@@ -1,8 +1,23 @@
 .intro {
-  width: calc(100% - 294px);
-  border: 1px solid red;
-  margin: 92px auto 0;
+  padding: 86px 445px 0 145px;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 85px 48px 0 286px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 88px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    padding: 64px 16px 0 16px;
+  }
 }

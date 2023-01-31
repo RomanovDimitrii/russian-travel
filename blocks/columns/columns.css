@@ -1,7 +1,24 @@
 .columns {
   display: grid;
   column-gap: 40px;
-  row-gap: 80px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  row-gap: 82px;
+  grid-template-columns: 0.97fr 1.03fr;
+  grid-template-rows: repeat(5, min-content);
+}
+
+@media screen and (max-width: 768px) {
+  .columns {
+    column-gap: 28px;
+    row-gap: 73px;
+    grid-template-columns: 0.97fr 1.03fr;
+    grid-template-rows: repeat(5, min-content);
+  }
+
+@media screen and (max-width: 500px) {
+  .columns {
+    column-gap: 0;
+    row-gap: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, min-content);
+  }
 }
