@@ -16,9 +16,9 @@
 
 @media screen and (max-width: 500px) {
   .columns {
-    column-gap: 0;
-    row-gap: 50px;
+    
     grid-template-columns: 1fr;
     grid-template-rows: repeat(10, min-content);
+    row-gap: 70px;
   }
 }
