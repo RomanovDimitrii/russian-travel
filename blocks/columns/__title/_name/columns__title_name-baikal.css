@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .columns__title_name-baikal {
+    max-width: 340px;
+  }
+}

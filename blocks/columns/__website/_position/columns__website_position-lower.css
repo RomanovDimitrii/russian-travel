@@ -1,0 +1,15 @@
+.columns__website_position-lower {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .columns__website_position-lower {
+    margin: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .columns__website_position-lower {
+    margin: 2px 0 0 16px;
+  }
+}

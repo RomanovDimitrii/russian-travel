@@ -1,4 +1,5 @@
 .header__lang-link_decoration_underligned {
   text-decoration: underline;
+  text-underline-offset: 4px;
   margin: 0 14px 0 0;
 }

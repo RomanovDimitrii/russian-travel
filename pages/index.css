@@ -23,16 +23,18 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/columns/columns.css);
-@import url(../blocks/columns/__left-column/columns__left-column.css);
 @import url(../blocks/columns/__title/columns__title.css);
+@import url(../blocks/columns/__title/_position/columns__title_position-lower.css);
+@import url(../blocks/columns/__title/_name/columns__title_name-baikal.css);
 @import url(../blocks/columns/__image/columns__image.css);
-@import url(../blocks/columns/__right-column/columns__right-column.css);
+@import url(../blocks/columns/__text/columns__text.css);
 @import url(../blocks/columns/__website/columns__website.css);
+@import url(../blocks/columns/__website/_position/columns__website_position-lower.css);
 @import url(../blocks/columns/__url-heading/columns__url-heading.css);
 @import url(../blocks/columns/__link/columns__link.css);
 @import url(../blocks/columns/__paragraph/columns__paragraph.css);
 @import url(../blocks/columns/__paragraph/_space/columns__paragraph_space-less.css);
-@import url(../blocks/columns/__website/_position/columns__website_position-higher.css);
+
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__text/cover__text.css);

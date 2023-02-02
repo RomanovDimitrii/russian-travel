@@ -6,3 +6,15 @@
   line-height: 12px;
   text-align: left;
 }
+
+@media screen and (max-width: 1024px) {
+  .columns__url-heading {
+    margin: 10px 0 13px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .columns__url-heading {
+    margin: 0 0 13px;
+  }
+}

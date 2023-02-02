@@ -1,9 +1,15 @@
 .columns__website {
-  margin: 94px 0 0;
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 768px) {
   .columns__website {
-    margin: 32px 0 0 16px;
+    margin: 2px 0 4px 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .columns__website {
+    margin: 2px 0 0 16px;
+    align-self: flex-start;
   }
 }

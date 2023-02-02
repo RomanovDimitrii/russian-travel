@@ -1,12 +1,12 @@
 .intro {
-  padding: 86px 445px 0 145px;
+  padding: 92px 445px 0 146px;
   display: flex;
   flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding: 85px 48px 0 286px;
+    padding: 92px 286px 0 48px;
   }
 }
 
