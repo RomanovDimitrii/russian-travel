@@ -26,9 +26,3 @@
     margin: 3px 16px 0;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .columns__paragraph {
-    max-width: 268px;
-  }
-}
