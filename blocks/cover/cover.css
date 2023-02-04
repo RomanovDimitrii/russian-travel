@@ -1,23 +1,23 @@
 .cover {
-  padding: 92px 48px 0;
+  margin: 92px 48px;
   display: flex;
   position: relative;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    padding: 92px 0 0;
+    margin: 94px 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    padding: 90px 0 0;
+    margin: 90px 0 0;
   }
 }
 
 @media screen and (max-width: 500px) {
   .cover {
-    padding: 66px 0 0;
+    margin: 66px 0 0;
   }
 }

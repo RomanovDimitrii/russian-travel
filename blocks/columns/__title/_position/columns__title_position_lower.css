@@ -1,9 +1,0 @@
-.columns__title_position_lower {
-  margin: 32px 0 2px;
-}
-
-@media screen and (max-width: 500px) {
-  .columns__title_position_lower {
-    margin: 20px 0 0 16px;
-  }
-}

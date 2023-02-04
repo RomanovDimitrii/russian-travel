@@ -1,6 +1,6 @@
 .columns__title {
   color: #ffffff;
-  margin: 0 0 4px 0;
+  margin: 0px 0 0px 0;
   max-width: 460px;
   font-size: 72px;
   font-weight: 900;
@@ -8,20 +8,30 @@
   text-align: left;
 }
 
+.columns__title:not(:first-of-type) {
+  margin-top: 33px;
+}
+
 @media screen and (max-width: 768px) {
   .columns__title {
     font-size: 42px;
     max-width: 320px;
-    font-weight: 900;
     line-height: 46px;
+  }
+
+  .columns__title:nth-of-type(4) {
+    max-width: 480px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .columns__title {
     font-size: 32px;
-    font-weight: 900;
     line-height: 35px;
     margin: 0 0 0 16px;
+  }
+
+  .columns__title:not(:first-of-type) {
+    margin-top: 23px;
   }
 }

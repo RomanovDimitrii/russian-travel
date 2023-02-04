@@ -2,15 +2,9 @@
   padding: 92px 48px 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .photo {
-    padding: 92px 48px 0;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .photo {
-    padding: 92px 24px 0;
+    padding: 89px 24px 0;
   }
 }
 

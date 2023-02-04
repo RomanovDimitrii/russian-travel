@@ -1,10 +1,11 @@
 .columns__url-heading {
-  color: #ffffff;
+  color: #aaaaaa;
   margin: 10px 0 13px;
   font-size: 12px;
   font-weight: 400;
   line-height: 12px;
   text-align: left;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 1024px) {
