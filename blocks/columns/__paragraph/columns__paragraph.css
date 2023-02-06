@@ -7,10 +7,6 @@
   text-align: left;
 }
 
-.columns__paragraph:nth-of-type(even) {
-  margin-top: 26px;
-}
-
 @media screen and (max-width: 768px) {
   .columns__paragraph {
     font-size: 16px;
@@ -20,7 +16,6 @@
 
 @media screen and (max-width: 650px) {
   .columns__paragraph {
-    line-height: 26px;
     margin: 3px 16px 0;
   }
 }

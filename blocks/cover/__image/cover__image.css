@@ -1,9 +1,0 @@
-.cover__image {
-  object-fit: cover;
-  width: 100%;
-  opacity: 30%;
-}
-
-.cover__image:hover {
-  opacity: 80%;
-}
